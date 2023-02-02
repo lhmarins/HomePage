@@ -22,6 +22,7 @@ video{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0%;
   }
   .tryalpha_box{
     width: 100%;
