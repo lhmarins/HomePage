@@ -1,0 +1,72 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 75px;
+}
+p{
+    font-family: "itc-avant-garde-gothic-pro";
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.homepage{
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .tryalpha_box{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+  }
+  .tryalpha_text{
+    padding-top: 300px;
+    font-family: "itc-avant-garde-gothic-pro";
+    color: #fff;
+  }
+  .runalpha_box{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: #e42413;
+    color: #fff;
+  }
+  .runalpha_text{
+    padding-top: 300px;
+    font-family: "itc-avant-garde-gothic-pro";
+  }
+  .button_try{
+    background-color: #e42413;
+    display: inline-block;
+    padding: 5px 75px;
+    margin-top: 35px;
+    color: #fff;
+  }
+  .button_run{
+    background-color: #fff;
+    display: inline-block;
+    padding: 5px 75px;
+    margin-top: 35px;
+    color: #fff;
+  }
+  .try{
+    color: #fff;
+  }
+  a:link{
+    color: white;
+  }
+  .run{
+    color:#e42413;
+  }
