@@ -9,6 +9,12 @@ h1{
 p{
     font-family: "itc-avant-garde-gothic-pro";
 }
+img{
+    position:absolute;
+    width: 100px;
+    margin-left: 47%;
+    margin-top: 1%;
+}
 video{
     position: absolute;
     top: 0;
